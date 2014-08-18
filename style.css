@@ -1,0 +1,296 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	background-color: black;
+	width: 100%;
+	min-width: 960px;
+	color: #6D6B6B;
+	
+	
+}
+div#wrapper {
+	position: relative;
+	width: 960px;
+	min-width: 960px;
+	height: 1000px;
+	margin: 0 auto;
+}
+
+nav#mainNav {
+	width: 565px;
+	margin: 0 auto;
+	color: white;
+	font-size: 1.2em;
+	Margin-top: 100px;
+	-webkit-animation: nav 1s linear 2s 1 backwards;
+	-moz-animation: nav 1s linear 2s 1 backwards;
+	-o-animation: nav 1s linear 2s 1 backwards;
+	animation: nav 1s linear 2s 1 backwards;
+}
+@-webkit-keyframes nav {
+	from{opacity: 0;}
+	to{opacity: 1;}
+}
+@-moz-keyframes nav {
+	from{opacity: 0;}
+	to{opacity: 1;}
+}
+@-o-keyframes nav {
+	from{opacity: 0;}
+	to{opacity: 1;}
+}
+@keyframes nav {
+	from{opacity: 0;}
+	to{opacity: 1;}
+}
+#mainNav ul{
+	display: block;
+	list-style: none;
+}
+#mainNav li  {
+	float: left;
+	
+	margin-right: 20px;
+	height: 50px;
+	text-align: center;
+	font-family: 'Nosifer', cursive;
+}
+#mainNav li:first-letter  {
+	border: 3px solid #443C72;
+	border-radius: 500px;
+	width: 50px;
+	height: 50px;
+	text-align: center;
+	font-family: 'Nosifer', cursive;
+}
+#mainNav a {
+	text-decoration: none;
+	color: white;
+	
+}
+#mainNav a:hover {
+	color: #443C72;
+}
+footer {
+	clear: both;
+	display: block;
+	color: #443C72;
+	font-family: 'Nosifer', cursive;
+	font-size: .8em;
+	width: 960px;
+	text-align: center;
+	margin-top: 400px;
+	-webkit-animation: flash 3s ease-in-out infinite alternate;
+}
+@-webkit-keyframes flash {
+	from {opacity: 0;}
+	to {opacity: .8;}
+}
+
+div#social {
+	width: 210px;
+	margin: 0 auto;
+	Margin-top: 160px;
+	-webkit-perspective: 1000px;
+}
+
+#social ul{
+	display: block;
+	list-style: none;
+}
+/*#social li  {
+	float: left;
+	margin-right: 20px;
+	height: 50px;
+	text-align: center;
+}*/
+.pic {
+	float: left;
+	width: 50px;
+	height: 50px;
+	margin-right: 20px;
+	-webkit-transform-origin: top left;
+	-moz-transform-origin: top left;
+	-o-transform-origin: top left;
+	transform-origin: top left;
+	-webkit-animation: hinge 2.3s ease-in normal both;
+	-moz-animation: hinge 2.3s ease-in normal both;
+	-o-animation: hinge 2.3s ease-in normal both;
+	animation: hinge 2.3s ease-in normal both;
+}
+
+@-webkit-keyframes hinge {
+	from {-webkit-transform:rotateY(90deg);}
+	to {-webkit-transform:rotateY(0deg);}
+}
+@-moz-keyframes hinge {
+	from {-webkit-transform:rotateY(90deg);}
+	to {-webkit-transform:rotateY(0deg);}
+}
+@-o-keyframes hinge {
+	from {-webkit-transform:rotateY(90deg);}
+	to {-webkit-transform:rotateY(0deg);}
+}
+@keyframes hinge {
+	from {-webkit-transform:rotateY(90deg);}
+	to {-webkit-transform:rotateY(0deg);}
+}
+
+
+
+.sky{
+	width: 100%;
+	height: 300px;
+	background: transparent url(images/moon1.jpg) no-repeat 30px 0px;
+	margin: auto;
+	position: relative;
+}
+.cloud {
+	width: 100%;
+	height: 113px;
+	position: absolute;
+	background: transparent url(images/cloud1.png) 0 0 no-repeat;
+}
+.cloud1 {
+	top: 0;
+	z-index: 100;
+	-webkit-animation: drift 30s linear infinite;
+	-moz-animation: drift 30s linear infinite;
+	-o-animation: drift 30s linear infinite;
+	animation: drift 30s linear infinite;
+}
+.cloud2 {
+	top: 80px;
+	z-index: 200;
+	-webkit-animation: drift 40s linear 8s infinite backwards;
+	-moz-animation: drift 40s linear 8s infinite backwards;
+	-o-animation: drift 40s linear 8s infinite backwards;
+	animation: drift 40s linear 8s infinite backwards;
+}
+@-webkit-keyframes drift {
+	from{-webkit-transform:translateX(-505px);}
+	to{-webkit-transform:translateX(1265px);}
+}
+@-moz-keyframes drift {
+	from{-webkit-transform:translateX(-505px);}
+	to{-webkit-transform:translateX(1265px);}
+}
+@-o-keyframes drift {
+	from{-webkit-transform:translateX(-505px);}
+	to{-webkit-transform:translateX(1265px);}
+}
+@keyframes drift {
+	from{-webkit-transform:translateX(-505px);}
+	to{-webkit-transform:translateX(1265px);}
+}
+
+
+.name {
+	font-size: 5em;
+	position: absolute;
+	font-family: 'Nosifer', cursive;
+	text-shadow: 2px 2px 3px white;
+}
+div#firstname {
+	
+	top: 200px;
+	margin-left: 100px;
+	-webkit-animation: firstname .4s ease-in .6s 1 backwards;
+	-moz-animation: firstname .4s ease-in .6s 1 backwards;
+	-o-animation: firstname .4s ease-in .6s 1 backwards;
+	animation: firstname .4s ease-in .6s 1 backwards;
+}
+@-webkit-keyframes firstname {
+	0%{-webkit-transform:translateX(-700px);}
+	90%{-webkit-transform:translateX(30px);}
+	100%{-webkit-transform:translateX(0px);}
+}
+@-moz-keyframes firstname {
+	0%{-webkit-transform:translateX(-700px);}
+	90%{-webkit-transform:translateX(30px);}
+	100%{-webkit-transform:translateX(0px);}
+}
+@-o-keyframes firstname {
+	0%{-webkit-transform:translateX(-700px);}
+	90%{-webkit-transform:translateX(30px);}
+	100%{-webkit-transform:translateX(0px);}
+}
+@keyframes firstname {
+	0%{-webkit-transform:translateX(-700px);}
+	90%{-webkit-transform:translateX(30px);}
+	100%{-webkit-transform:translateX(0px);}
+}
+div#lastname {
+	top: 200px;
+	margin-left: 500px;
+	-webkit-animation: lastname .4s ease-in  1 backwards;
+	-moz-animation: lastname .4s ease-in  1 backwards;
+	-o-animation: lastname .4s ease-in  1 backwards;
+	animation: lastname .4s ease-in  1 backwards;
+}
+@-webkit-keyframes lastname {
+	0%{-webkit-transform:translateX(-700px);}
+	90%{-webkit-transform:translateX(30px);}
+	100%{-webkit-transform:translateX(0px);}
+}
+@-moz-keyframes lastname {
+	0%{-webkit-transform:translateX(-700px);}
+	90%{-webkit-transform:translateX(30px);}
+	100%{-webkit-transform:translateX(0px);}
+}
+@-o-keyframes lastname {
+	0%{-webkit-transform:translateX(-700px);}
+	90%{-webkit-transform:translateX(30px);}
+	100%{-webkit-transform:translateX(0px);}
+}
+@keyframes lastname {
+	0%{-webkit-transform:translateX(-700px);}
+	90%{-webkit-transform:translateX(30px);}
+	100%{-webkit-transform:translateX(0px);}
+}
+div#webmaster {
+	position: absolute;
+	font-family: 'VT323', monospace;
+	font-size: 4em;
+	top: 320px;
+	margin-left: 240px;
+	-webkit-animation: webmaster .6s ease-in 1.2s 1 both;
+	-moz-animation: webmaster .6s ease-in 1.2s 1 both;
+	-o-animation: webmaster .6s ease-in 1.2s 1 both;
+	animation: webmaster .6s ease-in 1.2s 1 both;
+}
+@-webkit-keyframes webmaster {
+	0%{-webkit-transform:translateY(-600px);}
+	70%{-webkit-transform:translateY(50px);}
+	80%{-webkit-transform:translateY(-10px);}
+	90%{-webkit-transform:translateY(20px);}
+	100%{-webkit-transform:translateY(0px);
+}
+@-moz-keyframes webmaster {
+	0%{-webkit-transform:translateY(-600px);}
+	70%{-webkit-transform:translateY(50px);}
+	80%{-webkit-transform:translateY(-10px);}
+	90%{-webkit-transform:translateY(20px);}
+	100%{-webkit-transform:translateY(0px);
+}
+@-o-keyframes webmaster {
+	0%{-webkit-transform:translateY(-600px);}
+	70%{-webkit-transform:translateY(50px);}
+	80%{-webkit-transform:translateY(-10px);}
+	90%{-webkit-transform:translateY(20px);}
+	100%{-webkit-transform:translateY(0px);
+}
+@keyframes webmaster {
+	0%{-webkit-transform:translateY(-600px);}
+	70%{-webkit-transform:translateY(50px);}
+	80%{-webkit-transform:translateY(-10px);}
+	90%{-webkit-transform:translateY(20px);}
+	100%{-webkit-transform:translateY(0px);
+}
+
+
+
+
+

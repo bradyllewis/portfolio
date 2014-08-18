@@ -1,0 +1,163 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	background-color: black;
+	width: 100%;
+	min-width: 960px;
+	color: white;
+	font-family: 'Lusitana', serif;
+}
+div#wrapper {
+	position: relative;
+	width: 960px;
+	min-width: 960px;
+	height: 1000px;
+	margin: 0 auto;
+	text-align: center;
+}
+#wrapper header {
+	font-family: 'Nosifer', cursive;
+	font-size: 2em;
+	margin: 15px auto;
+	color: white;
+	-webkit-animation: header 2.5s forwards;
+	-moz-animation: header 2.5s forwards;
+	-o-animation: header 2.5s forwards;
+	animation: header 2.5s forwards;
+}
+#personal h1 {
+	font-family: 'Roboto Condensed', sans-serif;
+	font-size: 1.8em;
+}
+#personal h2 {
+	font-family: 'Roboto Condensed', sans-serif;
+}
+div#personal {
+	width: 600px;
+	text-align: left;
+	margin: 0 auto;
+	margin-top: 25px;
+	font-family: 'Lusitana', serif;
+}
+#personal img {
+	border: 2px solid #443C72;
+	border-radius: 15px;
+}
+#personal aside {
+	float: right;
+	margin-top: 15px;
+}
+#personal ul {
+	list-style-position: inside;
+	list-style-type: square;
+}
+#skills {
+	text-align: left;
+}
+div#skills {
+	width: 600px;
+	margin: 0 auto;
+	margin-top: 50px;
+}
+#skills h1 {
+	font-family: 'Roboto Condensed', sans-serif;
+	font-size: 2.4em;
+	float: left;
+	margin-top: 10px;
+	margin-right: 100px;
+}
+#skills img {
+	float: right;
+}
+#skills section {
+	width: 510px;
+	height: 75px;
+	background-color: rgba(68,60,114,.8);
+	margin: 0 auto;
+	border: 2px solid white;
+	border-radius: 10px;
+	padding: 20px;
+	margin-bottom: 10px;
+	
+}
+
+nav#mainNav {
+	width: 556px;
+	margin: 0px auto;
+	margin-left: 215px;
+	color: white;
+	font-size: 1.2em;
+	padding-bottom: 75px;
+	-webkit-animation: nav 1s linear 1s 1 backwards;
+	-moz-animation: nav 1s linear 1s 1 backwards;
+	-o-animation: nav 1s linear 1s 1 backwards;
+	animation: nav 1s linear 1s 1 backwards;
+}
+@-webkit-keyframes nav {
+	from{opacity: 0;}
+	to{opacity: 1;}
+}
+@-moz-keyframes nav {
+	from{opacity: 0;}
+	to{opacity: 1;}
+}
+@-o-keyframes nav {
+	from{opacity: 0;}
+	to{opacity: 1;}
+}
+@keyframes nav {
+	from{opacity: 0;}
+	to{opacity: 1;}
+}
+#mainNav ul{
+	display: block;
+	list-style: none;
+	
+}
+#mainNav li  {
+	float: left;
+	
+	margin-right: 20px;
+	height: 50px;
+	text-align: center;
+	font-family: 'Nosifer', cursive;
+}
+
+
+#mainNav li:first-letter  {
+	border: 3px solid #443C72;
+	border-radius: 500px;
+	width: 50px;
+	height: 50px;
+	text-align: center;
+	font-family: 'Nosifer', cursive;
+}
+#mainNav a {
+	text-decoration: none;
+	color: white;
+	
+}
+#mainNav a:hover {
+	color: #443C72;
+}
+
+
+
+@-webkit-keyframes header {
+	from{opacity: 0;}
+	to{opacity: 1;}
+}
+@-moz-keyframes header {
+	from{opacity: 0;}
+	to{opacity: 1;}
+}
+@-o-keyframes header {
+	from{opacity: 0;}
+	to{opacity: 1;}
+}
+@keyframes header {
+	from{opacity: 0;}
+	to{opacity: 1;}
+}

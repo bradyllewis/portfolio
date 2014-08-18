@@ -1,0 +1,161 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	background-color: black;
+	width: 100%;
+	min-width: 960px;
+	color: #6D6B6B;
+	font-family: 'Lusitana', serif;
+}
+div#wrapper {
+	position: relative;
+	width: 960px;
+	min-width: 960px;
+	height: 1000px;
+	margin: 0 auto;
+	text-align: center;
+}
+#wrapper header {
+	font-family: 'Nosifer', cursive;
+	font-size: 2em;
+	margin: 15px auto;
+	color: white;
+	-webkit-animation: header 2.5s forwards;
+	-moz-animation: header 2.5s forwards;
+	-o-animation: header 2.5s forwards;
+	animation: header 2.5s forwards;
+}
+
+
+div#mainContent {
+	width: 700px;
+	margin: 0 auto;
+}
+div#top {
+	width: 700px;
+	height: 104px;
+	margin: 0 auto;
+	
+}
+div#left {
+	width: 104px;
+	height: 300px;
+	float: left;
+	
+	padding-top: 100px;
+}
+div#middle{
+	position: relative;
+	width: 500px;
+	height: 400px;
+	float: left;
+}
+.middle{
+	position: absolute;
+	width: 412px;
+	height: 320px;
+	text-align: center;
+	font-size: 2em;
+	color: white;
+	float: left;
+	padding: 40px;
+	visibility: hidden;
+}
+div#intro {
+	visibility: visible;
+	font-size: 1.3em;
+}
+div#right {
+	width: 112px;
+	height: 300px;
+	margin-left: 596px;
+	
+	padding-top: 100px;
+
+}
+.icon {
+	border: 2px solid #443C72;
+	border-radius: 500px;
+}
+.icon:hover {
+	border: 2px dashed white;
+}
+
+@-webkit-keyframes header {
+	from{opacity: 0;}
+	to{opacity: 1;}
+}
+@-moz-keyframes header {
+	from{opacity: 0;}
+	to{opacity: 1;}
+}
+@-o-keyframes header {
+	from{opacity: 0;}
+	to{opacity: 1;}
+}
+@keyframes header {
+	from{opacity: 0;}
+	to{opacity: 1;}
+}
+
+nav#mainNav {
+	width: 527px;
+	margin: 0px auto;
+	margin-left: 240px;
+	color: white;
+	font-size: 1.2em;
+	margin-bottom: 35px;
+	-webkit-animation: nav 1s linear 1s 1 backwards;
+	-moz-animation: nav 1s linear 1s 1 backwards;
+	-o-animation: nav 1s linear 1s 1 backwards;
+	animation: nav 1s linear 1s 1 backwards;
+}
+@-webkit-keyframes nav {
+	from{opacity: 0;}
+	to{opacity: 1;}
+}
+@-moz-keyframes nav {
+	from{opacity: 0;}
+	to{opacity: 1;}
+}
+@-o-keyframes nav {
+	from{opacity: 0;}
+	to{opacity: 1;}
+}
+@keyframes nav {
+	from{opacity: 0;}
+	to{opacity: 1;}
+}
+#mainNav ul{
+	display: block;
+	list-style: none;
+	
+}
+#mainNav li  {
+	float: left;
+	
+	margin-right: 20px;
+	height: 50px;
+	text-align: center;
+	font-family: 'Nosifer', cursive;
+}
+
+
+#mainNav li:first-letter  {
+	border: 3px solid #443C72;
+	border-radius: 500px;
+	width: 50px;
+	height: 50px;
+	text-align: center;
+	font-family: 'Nosifer', cursive;
+}
+#mainNav a {
+	text-decoration: none;
+	color: white;
+	
+}
+#mainNav a:hover {
+	color: #443C72;
+}
